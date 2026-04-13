@@ -1,0 +1,27 @@
+.tooltip-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background: white;
+    border-radius: 16px;
+    margin-top: 30px;
+  }
+  
+  .tooltip-trigger {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #f0f0f0;
+    color: #1e293b;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: help;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .tooltip-trigger:hover {
+    background: #e2e8f0;
+    transform: translateY(-2px);
+  }

@@ -1,0 +1,24 @@
+.card {
+    background: #f0f0f0;
+    border-radius: 16px;
+    padding: 28px 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #0f172a;
+  }
+  
+  .card__description {
+    font-size: 0.875rem;
+    color: #475569;
+  }
